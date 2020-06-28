@@ -1,6 +1,18 @@
-# rely-mock-demo
+# rely-mock-demo w/ dune crash
 
-I wonder if this is error relevant. I'm sure I just did something wrong. But as it says "Internal Error", I wonder if it might prove helpful to someone else for fixing something? Here it goes.
+Internal error, please report upstream including the contents of _build/log.
+
+Description:
+  ("Invalid Package.Name.t", { s = "" })
+
+(...)
+
+I must not crash.  Uncertainty is the mind-killer. Exceptions are the little-death that brings total obliteration.  I will fully express my cases. Execution will pass over me and through me.  And when it has gone past, I will unwind the stack along its path.  Where the cases are handled there will be nothing.  Only I will remain.
+
+
+---
+
+I wonder if this error is relevant to Dune. I'm sure I just did something wrong and I can have it fixed. But as it says "Internal Error" I wonder if it might prove helpful to someone else (from Dune) for fixing something?
 
 ## Error output
 
