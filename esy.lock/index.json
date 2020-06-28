@@ -18,7 +18,8 @@
       ],
       "devDependencies": [
         "refmterr@3.3.2@d41d8cd9", "ocaml@4.10.0@d41d8cd9",
-        "@opam/merlin@opam:3.3.6@7ca67060", "@opam/dune@opam:2.6.0@3a9808e6"
+        "@opam/merlin@opam:3.3.6@7ca67060", "@opam/dune@opam:2.6.0@3a9808e6",
+        "@esy-ocaml/reason@3.6.0@d41d8cd9"
       ]
     },
     "refmterr@3.3.2@d41d8cd9": {

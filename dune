@@ -16,7 +16,7 @@
     (name demo1tests)
     (public_name demo1tests.lib)
     (libraries demo1.lib rely.lib); Rely or demo1 first?
-    (modules demo1tests TestFramework FirstTest)
+    (modules TestFramework FirstTest)
     (ocamlopt_flags -linkall -g)
     (flags (-w -9))
 )

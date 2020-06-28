@@ -1,7 +1,7 @@
 {
   "name": "rely-mock-demo1",
   "scripts": {
-    "start": "esy && esy build -p demo1 && esy x demo1.exe",
+    "start": "esy && esy build -p demo1, demo1tests && esy x demo1.exe",
     "clean": "rm -rf _esy esy.lock* *.install node_modules"
   },
   "esy": {
@@ -23,6 +23,7 @@
     "ocaml": "*",
     "@opam/merlin": "*",
     "@opam/dune": "*",
-    "refmterr": "*"
+    "refmterr": "*",
+    "@esy-ocaml/reason": "*"
   }
 }
