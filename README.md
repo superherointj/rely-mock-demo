@@ -12,7 +12,9 @@ I must not crash.  Uncertainty is the mind-killer. Exceptions are the little-dea
 
 ---
 
-I wonder if this error is relevant to Dune. I'm sure I just did something wrong and I can have it fixed. But as it says "Internal Error" I wonder if it might prove helpful to someone else (from Dune) for fixing something?
+# Is this error relevant to Dune?
+
+I'm sure I just did something wrong and I can have it fixed. But as it says "Internal Error" I wonder if it might prove helpful to someone else (from Dune) for fixing something?
 
 ## Error output
 
