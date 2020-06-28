@@ -1,9 +1,0 @@
-package "lib" (
-  directory = "lib"
-  description = ""
-  requires = "demo1.lib rely.lib"
-  archive(byte) = "demo1tests.cma"
-  archive(native) = "demo1tests.cmxa"
-  plugin(byte) = "demo1tests.cma"
-  plugin(native) = "demo1tests.cmxs"
-)
