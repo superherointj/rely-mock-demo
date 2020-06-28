@@ -1,0 +1,18 @@
+lib: [
+  "/home/intj/git/sandbox/rely-mock-demo/_esy/default/store/b/rely_mock_demo1-9edde91a/install/default/lib/demo1/META"
+  "/home/intj/git/sandbox/rely-mock-demo/_esy/default/store/b/rely_mock_demo1-9edde91a/install/default/lib/demo1/dune-package"
+  "/home/intj/git/sandbox/rely-mock-demo/_esy/default/store/b/rely_mock_demo1-9edde91a/install/default/lib/demo1/lib/demo1.a" {"lib/demo1.a"}
+  "/home/intj/git/sandbox/rely-mock-demo/_esy/default/store/b/rely_mock_demo1-9edde91a/install/default/lib/demo1/lib/demo1.cma" {"lib/demo1.cma"}
+  "/home/intj/git/sandbox/rely-mock-demo/_esy/default/store/b/rely_mock_demo1-9edde91a/install/default/lib/demo1/lib/demo1.cmi" {"lib/demo1.cmi"}
+  "/home/intj/git/sandbox/rely-mock-demo/_esy/default/store/b/rely_mock_demo1-9edde91a/install/default/lib/demo1/lib/demo1.cmt" {"lib/demo1.cmt"}
+  "/home/intj/git/sandbox/rely-mock-demo/_esy/default/store/b/rely_mock_demo1-9edde91a/install/default/lib/demo1/lib/demo1.cmti" {"lib/demo1.cmti"}
+  "/home/intj/git/sandbox/rely-mock-demo/_esy/default/store/b/rely_mock_demo1-9edde91a/install/default/lib/demo1/lib/demo1.cmx" {"lib/demo1.cmx"}
+  "/home/intj/git/sandbox/rely-mock-demo/_esy/default/store/b/rely_mock_demo1-9edde91a/install/default/lib/demo1/lib/demo1.cmxa" {"lib/demo1.cmxa"}
+  "/home/intj/git/sandbox/rely-mock-demo/_esy/default/store/b/rely_mock_demo1-9edde91a/install/default/lib/demo1/lib/demo1.cmxs" {"lib/demo1.cmxs"}
+  "/home/intj/git/sandbox/rely-mock-demo/_esy/default/store/b/rely_mock_demo1-9edde91a/install/default/lib/demo1/lib/demo1.ml" {"lib/demo1.ml"}
+  "/home/intj/git/sandbox/rely-mock-demo/_esy/default/store/b/rely_mock_demo1-9edde91a/install/default/lib/demo1/lib/demo1.mli" {"lib/demo1.mli"}
+  "/home/intj/git/sandbox/rely-mock-demo/_esy/default/store/b/rely_mock_demo1-9edde91a/install/default/lib/demo1/opam"
+]
+bin: [
+  "/home/intj/git/sandbox/rely-mock-demo/_esy/default/store/b/rely_mock_demo1-9edde91a/install/default/bin/demo1.exe"
+]

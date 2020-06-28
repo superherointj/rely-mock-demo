@@ -1,0 +1,4 @@
+#!/bin/sh
+export ESY__NODE_BIN_PATH="/home/intj/git/sandbox/rely-mock-demo/_esy/default/bin"
+exec "/usr/bin/node" -r "/home/intj/git/sandbox/rely-mock-demo/_esy/default/pnp.js" "$@"
+              

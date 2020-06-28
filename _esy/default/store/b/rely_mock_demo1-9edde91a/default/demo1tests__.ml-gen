@@ -1,0 +1,5 @@
+(** @canonical Demo1tests.FirstTest *)
+module FirstTest = Demo1tests__FirstTest
+
+(** @canonical Demo1tests.TestFramework *)
+module TestFramework = Demo1tests__TestFramework

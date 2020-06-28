@@ -1,0 +1,217 @@
+# /home/intj/.esy/3_____________________________________________________________________/i/opam__s__dune-opam__c__2.6.0-822d2f2f/bin/dune build
+# OCAMLPARAM: unset
+# Workspace root: /home/intj/git/sandbox/rely-mock-demo
+$ /usr/bin/nproc > /tmp/dunecfc5be.output 2> /dev/null
+# Auto-detected concurrency: 4
+# disable binary cache
+$ /home/intj/.esy/3_____________________________________________________________________/i/ocaml-4.10.0-e4568572/bin/ocamlc.opt -config > /tmp/dune4b1912.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dyn
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some
+#        External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/ocaml-4.10.0-e4568572/lib/ocaml"
+#  ; ocaml_bin =
+#      External
+#        "/home/intj/.esy/3_____________________________________________________________________/i/ocaml-4.10.0-e4568572/bin"
+#  ; ocaml =
+#      Ok
+#        External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/ocaml-4.10.0-e4568572/bin/ocaml"
+#  ; ocamlc =
+#      External
+#        "/home/intj/.esy/3_____________________________________________________________________/i/ocaml-4.10.0-e4568572/bin/ocamlc.opt"
+#  ; ocamlopt =
+#      Ok
+#        External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/ocaml-4.10.0-e4568572/bin/ocamlopt.opt"
+#  ; ocamldep =
+#      Ok
+#        External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/ocaml-4.10.0-e4568572/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok
+#        External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/ocaml-4.10.0-e4568572/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "INSIDE_DUNE" :
+#            "/home/intj/git/sandbox/rely-mock-demo/_esy/default/store/b/rely_mock_demo1-9edde91a/default"
+#        ; "MANPATH" :
+#            "/home/intj/git/sandbox/rely-mock-demo//home/intj/git/sandbox/rely-mock-demo/_esy/default/store/b/rely_mock_demo1-9edde91a/install/default/bin"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/home/intj/git/sandbox/rely-mock-demo//home/intj/git/sandbox/rely-mock-demo/_esy/default/store/b/rely_mock_demo1-9edde91a/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/home/intj/git/sandbox/rely-mock-demo//home/intj/git/sandbox/rely-mock-demo/_esy/default/store/b/rely_mock_demo1-9edde91a/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path =
+#      [ External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/esy_ocaml__s__reason-3.6.0-9fbb2b39/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__dune-opam__c__2.6.0-822d2f2f/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__merlin-opam__c__3.3.6-7f2f6de6/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/reason_native__s__rely-3.2.1-a9b84c92/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/ocaml-4.10.0-e4568572/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/refmterr-3.3.2-08b9e694/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__fix-opam__c__20200131-6ca1a478/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__menhir-opam__c__20200624-5bcfee55/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-06d5879b/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.7.3-14faf357/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-c7c7ac83/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__result-opam__c__1.5-e37ad375/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-ed6217b4/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__base_threads-opam__c__base-f93e1d7d/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__base_unix-opam__c__base-dc4b97fb/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__ocamlfind_secondary-opam__c__1.8.1-965da07e/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-44d7608d/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__junit-opam__c__2.0.2-39899c07/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__re-opam__c__1.9.0-3a9dbc2d/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/reason_native__s__cli-0.0.1-alpha-d36d0ba7/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/reason_native__s__file_context_printer-0.0.3-f00a90d0/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/reason_native__s__pastel-0.3.0-1bdc0f58/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__atdgen-opam__c__2.2.1-ad1f2582/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/reason_native__s__console-0.1.0-50801dbd/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__menhirlib-opam__c__20200624-d8c5b9bf/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__menhirsdk-opam__c__20200624-3bdeefe3/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-42623813/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-e9386cb8/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__conf_m4-opam__c__1-75f0454e/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__ocaml_secondary_compiler-opam__c__4.08.1-1-ed533906/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-97871ce7/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-4259f35f/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__ptime-opam__c__0.8.5-04a43557/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__tyxml-opam__c__4.4.0-4ac6c389/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__seq-opam__c__base-ce36fff8/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__atd-opam__c__2.2.1-8e5b1f7e/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__atdgen_runtime-opam__c__2.2.1-e3954462/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-4ea4e0ed/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__topkg-opam__c__1.0.1-7b22dc37/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__uutf-opam__c__1.0.2-e92f7fc7/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-cc2a1b22/lib"
+#      ; External
+#          "/home/intj/.esy/3_____________________________________________________________________/i/opam__s__dune-opam__c__2.6.0-822d2f2f/lib"
+#      ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.10.0"
+#      ; standard_library_default =
+#          "/home/intj/.esy/3_____________________________________________________________________/i/ocaml-4.10.0-e4568572/lib/ocaml"
+#      ; standard_library =
+#          "/home/intj/.esy/3_____________________________________________________________________/i/ocaml-4.10.0-e4568572/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "gcc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-fPIC" ]
+#      ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; bytecomp_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-fPIC"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-ldl"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm"; "-ldl" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "linux"
+#      ; asm = [ "as" ]
+#      ; asm_cfi_supported = false
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-pc-linux-gnu"
+#      ; target = "x86_64-pc-linux-gnu"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X027"
+#      ; cmi_magic_number = "Caml1999I027"
+#      ; cmo_magic_number = "Caml1999O027"
+#      ; cma_magic_number = "Caml1999A027"
+#      ; cmx_magic_number = "Caml1999Y027"
+#      ; cmxa_magic_number = "Caml1999Z027"
+#      ; ast_impl_magic_number = "Caml1999M027"
+#      ; ast_intf_magic_number = "Caml1999N027"
+#      ; cmxs_magic_number = "Caml1999D027"
+#      ; cmt_magic_number = "Caml1999T027"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd /home/intj/git/sandbox/rely-mock-demo/_esy/default/store/b/rely_mock_demo1-9edde91a/default && /home/intj/.esy/3_____________________________________________________________________/i/ocaml-4.10.0-e4568572/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I .RunTests.eobjs/byte -I /home/intj/.esy/3_____________________________________________________________________/i/opam__s__junit-opam__c__2.0.2-39899c07/lib/junit -I /home/intj/.esy/3_____________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-c7c7ac83/lib/bytes -I /home/intj/.esy/3_____________________________________________________________________/i/opam__s__ptime-opam__c__0.8.5-04a43557/lib/ptime -I /home/intj/.esy/3_____________________________________________________________________/i/opam__s__ptime-opam__c__0.8.5-04a43557/lib/ptime/os -I /home/intj/.esy/3_____________________________________________________________________/i/opam__s__re-opam__c__1.9.0-3a9dbc2d/lib/re -I /home/intj/.esy/3_____________________________________________________________________/i/opam__s__result-opam__c__1.5-e37ad375/lib/result -I /home/intj/.esy/3_____________________________________________________________________/i/opam__s__seq-opam__c__base-ce36fff8/lib/seq -I /home/intj/.esy/3_____________________________________________________________________/i/opam__s__tyxml-opam__c__4.4.0-4ac6c389/lib/tyxml -I /home/intj/.esy/3_____________________________________________________________________/i/opam__s__tyxml-opam__c__4.4.0-4ac6c389/lib/tyxml/functor -I /home/intj/.esy/3_____________________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-cc2a1b22/lib/uchar -I /home/intj/.esy/3_____________________________________________________________________/i/opam__s__uutf-opam__c__1.0.2-e92f7fc7/lib/uutf -I /home/intj/.esy/3_____________________________________________________________________/i/reason_native__s__cli-0.0.1-alpha-d36d0ba7/lib/cli/lib -I /home/intj/.esy/3_____________________________________________________________________/i/reason_native__s__file_context_printer-0.0.3-f00a90d0/lib/file-context-printer/lib -I /home/intj/.esy/3_____________________________________________________________________/i/reason_native__s__pastel-0.3.0-1bdc0f58/lib/pastel/internal -I /home/intj/.esy/3_____________________________________________________________________/i/reason_native__s__pastel-0.3.0-1bdc0f58/lib/pastel/lib -I /home/intj/.esy/3_____________________________________________________________________/i/reason_native__s__rely-3.2.1-a9b84c92/lib/rely/internal -I /home/intj/.esy/3_____________________________________________________________________/i/reason_native__s__rely-3.2.1-a9b84c92/lib/rely/lib -I .demo1.objs/byte -I .demo1.objs/native -I .demo1tests.objs/byte -I .demo1tests.objs/native -no-alias-deps -opaque -o .RunTests.eobjs/byte/dune__exe__RunTests.cmo -c -impl RunTests.re.ml)
+> File "RunTests.re", line 3, characters 0-28:
+> 3 | Demo1tests.TestFramework.cli()
+>     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error: Unbound module Demo1tests.TestFramework
+[2]

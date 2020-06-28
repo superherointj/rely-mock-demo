@@ -1,0 +1,30 @@
+(library
+    (name demo1)
+    (public_name demo1.lib)
+    (modules ("demo1"))
+)
+
+(executable
+    (name demo1app)
+    (public_name demo1.exe)
+    (libraries demo1.lib)
+    (modules ("demo1app"))
+    (package demo1)
+)
+
+(library
+    (name demo1tests)
+    (public_name demo1tests.lib)
+    (libraries demo1.lib rely.lib); Rely or demo1 first?
+    (modules demo1tests TestFramework FirstTest)
+    (ocamlopt_flags -linkall -g)
+    (flags (-w -9))
+)
+
+(executable
+    (name RunTests)
+    (public_name RunTests)
+    (libraries demo1tests.lib)
+    (modules RunTests)
+    (package demo1tests)
+)

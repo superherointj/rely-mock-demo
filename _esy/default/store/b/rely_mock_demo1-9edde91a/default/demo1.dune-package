@@ -1,0 +1,13 @@
+(lang dune 2.6)
+(name demo1)
+(library
+ (name demo1.lib)
+ (kind normal)
+ (orig_src_dir /home/intj/git/sandbox/rely-mock-demo)
+ (archives (byte lib/demo1.cma) (native lib/demo1.cmxa))
+ (plugins (byte lib/demo1.cma) (native lib/demo1.cmxs))
+ (native_archives lib/demo1.a)
+ (main_module_name Demo1)
+ (modes byte native)
+ (modules
+  (singleton (name Demo1) (obj_name demo1) (visibility public) (impl) (intf))))
