@@ -1,6 +1,6 @@
 # rely-mock-demo
 
-I wonder if this error relevant. I'm sure I just did something wrong. But as it says "Internal Error", I wonder if it might prove helpful to someone else for fixing something?
+I wonder if this is error relevant. I'm sure I just did something wrong. But as it says "Internal Error", I wonder if it might prove helpful to someone else for fixing something? Here it goes.
 
 ## Error output
 
@@ -107,3 +107,8 @@ I must not crash.  Uncertainty is the mind-killer. Exceptions are the little-dea
 error: command failed: 'dune' 'build' '-p' 'demo1,' 'demo1tests' (exited with 1)
 esy-build-package: exiting with errors above...
 error: build failed with exit code: 1
+
+
+## To reproduce
+
+I've included a Dockerfile, just run "make". It will reproduce it.
