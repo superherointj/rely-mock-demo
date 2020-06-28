@@ -1,0 +1,219 @@
+docker build -t rely-mock-demo .
+Sending build context to Docker daemon  4.147MB
+Step 1/3 : FROM superherointj/archlinux-esy
+ ---> 2f86a9a2feba
+Step 2/3 : COPY Makefile *.json *.opam *.ml *.mli *.re *.rei dune dune-project ./
+ ---> Using cache
+ ---> 14eb5f44a92d
+Step 3/3 : RUN npm run start
+ ---> Running in b9405c5a62b7
+
+> rely-mock-demo1@ start /workdir
+> esy && esy build -p demo1 && esy x demo1.exe
+
+[91minfo esy 0.6.4 (using package.json)
+[0m[91minfo checking https://github.com/ocaml/opam-repository for updates...
+[0m[91minfo checking https://github.com/esy-ocaml/esy-opam-override for updates...
+[0m[91minfo resolving esy packages: done
+[0m[91minfo solving esy constraints: done
+[0m[91minfo resolving npm packages: done
+[0m[91minfo fetching: done
+[0m[91minfo installing: done
+[0m[91minfo building @esy-ocaml/substs@0.0.1@d41d8cd9
+[0m[91minfo building ocaml@4.10.0@d41d8cd9
+[0m[91minfo building @esy-ocaml/substs@0.0.1@d41d8cd9: done
+[0m[91minfo building @opam/conf-m4@opam:1@3b2b148a
+[0m[91minfo building @opam/base-unix@opam:base@87d0b2eb
+info building @opam/base-threads@opam:base@36803084
+[0m[91minfo building @opam/base-unix@opam:base@87d0b2eb: done
+[0m[91minfo building @opam/base-threads@opam:base@36803084: done
+[0m[91minfo building @opam/conf-m4@opam:1@3b2b148a: done
+[0m[91minfo building ocaml@4.10.0@d41d8cd9: done
+[0m[91minfo building @opam/ocamlfind@opam:1.8.1@ff07b0f9
+[0m[91minfo building @opam/ocaml-secondary-compiler@opam:4.08.1-1@ba28931b
+info building @opam/ocamlbuild@opam:0.14.0@6ac75d03
+info building @opam/seq@opam:base@d8d7de1d
+[0m[91minfo building @opam/seq@opam:base@d8d7de1d: done
+[0m[91minfo building @opam/ocamlfind@opam:1.8.1@ff07b0f9: done
+[0m[91minfo building @opam/ocamlbuild@opam:0.14.0@6ac75d03: done
+[0m[91minfo building @opam/topkg@opam:1.0.1@a42c631e
+[0m[91minfo building @opam/uchar@opam:0.0.2@c8218eea
+[0m[91minfo building @opam/uchar@opam:0.0.2@c8218eea: done
+[0m[91minfo building @opam/topkg@opam:1.0.1@a42c631e: done
+[0m[91minfo building @opam/uutf@opam:1.0.2@4440868f
+[0m[91minfo building @opam/uutf@opam:1.0.2@4440868f: done
+[0m[91minfo building @opam/ocaml-secondary-compiler@opam:4.08.1-1@ba28931b: done
+[0m[91minfo building @opam/ocamlfind-secondary@opam:1.8.1@1afa38b2
+[0m[91minfo building @opam/ocamlfind-secondary@opam:1.8.1@1afa38b2: done
+[0m[91minfo building @opam/dune@opam:2.6.0@3a9808e6
+[0m[91minfo building @opam/dune@opam:2.6.0@3a9808e6: done
+[0m[91minfo building @opam/cppo@opam:1.6.6@f4f83858
+[0m[91minfo building @opam/fix@opam:20200131@0ecd2f01
+info building @opam/menhirLib@opam:20200624@8bdd2b0e
+info building @opam/menhirSdk@opam:20200624@2a05b5a7
+[0m[91minfo building @opam/menhirSdk@opam:20200624@2a05b5a7: done
+[0m[91minfo building @opam/ppx_derivers@opam:1.2.1@ecf0aa45
+[0m[91minfo building @opam/fix@opam:20200131@0ecd2f01: done
+[0m[91minfo building @opam/result@opam:1.5@6b753c82
+[0m[91minfo building @opam/ppx_derivers@opam:1.2.1@ecf0aa45: done
+[0m[91minfo building @opam/easy-format@opam:1.3.2@0484b3c4
+[0m[91minfo building @opam/menhirLib@opam:20200624@8bdd2b0e: done
+[0m[91minfo building @opam/re@opam:1.9.0@d4d5e13d
+[0m[91minfo building @opam/result@opam:1.5@6b753c82: done
+[0m[91minfo building @opam/menhir@opam:20200624@8629ff13
+[0m[91minfo building @opam/cppo@opam:1.6.6@f4f83858: done
+[0m[91minfo building @opam/ocaml-migrate-parsetree@opam:1.7.3@dbcf3b47
+[0m[91minfo building @opam/easy-format@opam:1.3.2@0484b3c4: done
+[0m[91minfo building @opam/ptime@opam:0.8.5@0051d642
+[0m[91minfo building @opam/re@opam:1.9.0@d4d5e13d: done
+[0m[91minfo building @opam/merlin-extend@opam:0.5@675b1611
+[0m[91minfo building @opam/merlin-extend@opam:0.5@675b1611: done
+[0m[91minfo building @opam/biniou@opam:1.2.1@d7570399
+[0m[91minfo building @opam/ptime@opam:0.8.5@0051d642: done
+[0m[91minfo building @opam/tyxml@opam:4.4.0@1dca5713
+[0m[91minfo building @opam/biniou@opam:1.2.1@d7570399: done
+[0m[91minfo building @opam/yojson@opam:1.7.0@7056d985
+[0m[91minfo building @opam/yojson@opam:1.7.0@7056d985: done
+[0m[91minfo building @opam/atdgen-runtime@opam:2.2.1@6a3a6395
+[0m[91minfo building @opam/atdgen-runtime@opam:2.2.1@6a3a6395: done
+[0m[91minfo building @opam/merlin@opam:3.3.6@7ca67060
+[0m[91minfo building @opam/tyxml@opam:4.4.0@1dca5713: done
+[0m[91minfo building @opam/junit@opam:2.0.2@0b7bd730
+[0m[91minfo building @opam/junit@opam:2.0.2@0b7bd730: done
+[0m[91minfo building @opam/menhir@opam:20200624@8629ff13: done
+[0m[91minfo building @opam/atd@opam:2.2.1@071ab6bd
+[0m[91minfo building @opam/ocaml-migrate-parsetree@opam:1.7.3@dbcf3b47: done
+[0m[91minfo building @esy-ocaml/reason@3.6.0@d41d8cd9
+[0m[91minfo building @opam/atd@opam:2.2.1@071ab6bd: done
+[0m[91minfo building @opam/atdgen@opam:2.2.1@d73fda11
+[0m[91minfo building @opam/atdgen@opam:2.2.1@d73fda11: done
+[0m[91minfo building @opam/merlin@opam:3.3.6@7ca67060: done
+[0m[91minfo building @esy-ocaml/reason@3.6.0@d41d8cd9: done
+[0m[91minfo building @reason-native/console@0.1.0@d41d8cd9
+[0m[91minfo building @reason-native/pastel@0.3.0@d41d8cd9
+[0m[91minfo building @reason-native/console@0.1.0@d41d8cd9: done
+[0m[91minfo building @reason-native/pastel@0.3.0@d41d8cd9: done
+[0m[91minfo building refmterr@3.3.2@d41d8cd9
+[0m[91minfo building @reason-native/cli@0.0.1-alpha@d41d8cd9
+info building @reason-native/file-context-printer@0.0.3@d41d8cd9
+[0m[91minfo building @reason-native/file-context-printer@0.0.3@d41d8cd9: done
+[0m[91minfo building @reason-native/cli@0.0.1-alpha@d41d8cd9: done
+[0m[91minfo building @reason-native/rely@3.2.1@d41d8cd9
+[0m[91minfo building refmterr@3.3.2@d41d8cd9: done
+[0m[91minfo building @reason-native/rely@3.2.1@d41d8cd9: done
+[0mInternal error, please report upstream including the contents of _build/log.
+Description:
+  ("Invalid Package.Name.t", { s = "" })
+Raised at file "src/stdune/code_error.ml", line 9, characters 30-62
+Called from file "list.ml", line 103, characters 22-25
+Called from file "src/stdune/list.ml" (inlined), line 5, characters 19-33
+Called from file "src/stdune/set.ml", line 80, characters 4-18
+Called from file "bin/common.ml", line 229, characters 8-100
+Called from file "vendor/cmdliner/src/cmdliner_arg.ml", line 33, characters
+  22-29
+Called from file "vendor/cmdliner/src/cmdliner_base.ml", line 104, characters
+  22-29
+Called from file "vendor/cmdliner/src/cmdliner_arg.ml", line 162, characters
+  38-45
+Called from file "vendor/cmdliner/src/cmdliner_arg.ml", line 177, characters
+  14-41
+Called from file "vendor/cmdliner/src/cmdliner.ml", line 65, characters 14-21
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 23, characters
+  12-19
+Called from file "vendor/cmdliner/src/cmdliner.ml", line 65, characters 14-21
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 23, characters
+  12-19
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 23, characters
+  12-19
+Called from file "vendor/cmdliner/src/cmdliner.ml", line 30, characters 14-21
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 23, characters
+  12-19
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 20, characters
+  21-30
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 23, characters
+  12-19
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 23, characters
+  12-19
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 23, characters
+  12-19
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 20, characters
+  21-30
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 23, characters
+  12-19
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 20, characters
+  21-30
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 23, characters
+  12-19
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 20, characters
+  21-30
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 23, characters
+  12-19
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 20, characters
+  21-30
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 23, characters
+  12-19
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 20, characters
+  21-30
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 23, characters
+  12-19
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 20, characters
+  21-30
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 23, characters
+  12-19
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 20, characters
+  21-30
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 23, characters
+  12-19
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 20, characters
+  21-30
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 23, characters
+  12-19
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 20, characters
+  21-30
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 23, characters
+  12-19
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 20, characters
+  21-30
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 23, characters
+  12-19
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 20, characters
+  21-30
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 23, characters
+  12-19
+Called from file "vendor/cmdliner/src/cmdliner.ml", line 65, characters 14-21
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 23, characters
+  12-19
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 23, characters
+  12-19
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 20, characters
+  21-30
+Called from file "vendor/cmdliner/src/cmdliner_term.ml", line 23, characters
+  12-19
+Called from file "vendor/cmdliner/src/cmdliner.ml", line 146, characters 9-16
+Called from file "vendor/cmdliner/src/cmdliner.ml", line 176, characters
+  18-36
+Called from file "vendor/cmdliner/src/cmdliner.ml", line 312, characters
+  20-46
+Called from file "bin/main.ml", line 262, characters 10-51
+
+I must not crash.  Uncertainty is the mind-killer. Exceptions are the
+little-death that brings total obliteration.  I will fully express my cases. 
+Execution will pass over me and through me.  And when it has gone past, I
+will unwind the stack along its path.  Where the cases are handled there will
+be nothing.  Only I will remain.
+[91merror: command failed: 'dune' 'build' '-p' 'demo1,' 'demo1tests' (exited with 1)
+esy-build-package: exiting with errors above...
+[0m[91merror: build failed with exit code: 1
+  
+esy: exiting due to errors above
+[0m[91mnpm [0m[91mERR![0m[91m code ELIFECYCLE
+[0m[91mnpm [0m[91mERR! [0m[91merrno 1
+[0m[91mnpm ERR![0m[91m rely-mock-demo1@ start: `esy && esy build -p demo1 && esy x demo1.exe`
+npm [0m[91mERR![0m[91m Exit status 1
+npm[0m[91m ERR! 
+npm[0m[91m [0m[91mERR![0m[91m Failed at the rely-mock-demo1@ start script.
+[0m[91mnpm [0m[91mERR![0m[91m This is probably not a problem with npm. There is likely additional logging output above.
+[0m[91m
+npm[0m[91m ERR! A complete log of this run can be found in:
+[0m[91mnpm [0m[91mERR![0m[91m     /root/.npm/_logs/2020-06-28T21_32_51_053Z-debug.log
+[0m
