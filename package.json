@@ -1,7 +1,7 @@
 {
   "name": "rely-mock-demo1",
   "scripts": {
-    "start": "esy && esy build -p demo1,demo1tests && esy x demo1.exe",
+    "start": "esy && esy dune build -p demo1,demo1tests",
     "clean": "rm -rf _esy esy.lock* *.install node_modules"
   },
   "esy": {
