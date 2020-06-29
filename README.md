@@ -1,5 +1,12 @@
 # rely-mock-demo w/ dune crash
 
+Having a space packages name, like:
+"esy dune build -p demo1, demo1tests"
+
+Crashes dune with Internal error:
+
+---
+
 Internal error, please report upstream including the contents of _build/log.
 
 Description:
@@ -12,9 +19,10 @@ I must not crash.  Uncertainty is the mind-killer. Exceptions are the little-dea
 
 ---
 
-# Is this error relevant to Dune?
+# Is this error relevant?
 
-I'm sure I just did something wrong and I can have it fixed. But as it says "Internal Error" I wonder if it might prove helpful to someone else (from Dune) for fixing something?
+I wasn't sure if I should report this. It's just a space between package names.
+
 
 ## Error output
 
